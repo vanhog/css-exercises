@@ -1,5 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+}
+
 div {
-    background-color: blue;
+    background-color: rgb(217, 255, 0);
     width: 500px;
     height: 200px;
+}
+
+#about {
+    background-color: white;
+    margin: 50px 50px;
+    font-size: 2em;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: green;
 }
